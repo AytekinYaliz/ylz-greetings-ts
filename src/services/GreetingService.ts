@@ -7,7 +7,7 @@ import sendEmailGreetingCommandEmitterInstance from "../events/SendEmailGreeting
 import sendSMSGreetingCommandEmitterInstance from "../events/SendSMSGreetingCommandEmitter";
 import friendRepositoryFactoryInstance from "../repositories/FriendRepositoryFactory";
 
-class GreetingsJob {
+class GreetingService {
   greetingsJobRunEventReceived(payload: { birthdate: Date }) {
     const friendRepository = friendRepositoryFactoryInstance.getRepository();
     const friends = friendRepository.getFriendsWithBirthdays(payload.birthdate);
@@ -37,4 +37,4 @@ class GreetingsJob {
   }
 }
 
-export default new GreetingsJob();
+export default new GreetingService();
