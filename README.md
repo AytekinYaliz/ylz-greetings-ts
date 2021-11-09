@@ -1,4 +1,4 @@
-![](./static/architecture.drawio.svg)
+![](./static/architecture.jpg)
 
 ### How to run the application
 
