@@ -1,0 +1,23 @@
+[
+  {
+    "last_name": "Doe",
+    "first_name": "John",
+    "date_of_birth": "1982/10/08",
+    "email": "john.doe@foobar.com",
+    "mobile": "11111111"
+  },
+  {
+    "last_name": "Ann",
+    "first_name": "Marry",
+    "date_of_birth": "1975/09/11",
+    "email": "marry.ann@foobar.com",
+    "mobile": "22222222"
+  },
+  {
+    "last_name": "Brown",
+    "first_name": "Mike",
+    "date_of_birth": "1977/03/03",
+    "email": null,
+    "mobile": "333333333"
+  }
+]
